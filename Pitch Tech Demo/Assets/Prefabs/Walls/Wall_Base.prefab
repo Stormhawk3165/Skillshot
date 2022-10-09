@@ -107,6 +107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_Base
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9b4fd0b7af45a64288234b13c56a0e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b4fd0b7af45a64288234b13c56a0e0, type: 3}
 --- !u!4 &8336652053732204925 stripped
@@ -126,7 +130,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8717399270108265415}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c8c73fcd54ac7e04c84f2ef911bbf290, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
