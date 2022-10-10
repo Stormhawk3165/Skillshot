@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 4401127795566843677}
   m_Layer: 3
   m_Name: enemy_Heavy
-  m_TagString: Enemy
+  m_TagString: EnemyHeavy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: b67de2a6e06fbf34a89fc233fb698f03, type: 2}
+    - {fileID: 11400000, guid: 8cb2744915a090b42a40de98b8f8f39b, type: 2}
 --- !u!195 &4401127795566843673
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5281106302188847062}
   m_Layer: 3
   m_Name: body
-  m_TagString: Enemy
+  m_TagString: EnemyGhost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 576748539460010604}
   m_Layer: 3
   m_Name: enemy_Ghost
-  m_TagString: Enemy
+  m_TagString: EnemyGhost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
