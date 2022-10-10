@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4401127795566843654}
   - component: {fileID: 4401127795566843655}
   - component: {fileID: 4401127795566843652}
-  - component: {fileID: 4401127795566843653}
   - component: {fileID: 4401127795566843674}
   - component: {fileID: 4401127795566843675}
   - component: {fileID: 4401127795566843673}
   - component: {fileID: 4401127795566843677}
+  - component: {fileID: 1892687575464765677}
   m_Layer: 3
   m_Name: enemy_Heavy
   m_TagString: EnemyHeavy
@@ -89,20 +89,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4401127795566843653
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4401127795566843678}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.72375023
-  m_Height: 1.9258732
-  m_Direction: 1
-  m_Center: {x: -0.00000061443217, y: 0.14052953, z: -2.9454734e-17}
 --- !u!114 &4401127795566843674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +173,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!136 &1892687575464765677
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4401127795566843678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.49999997
+  m_Height: 1.3491025
+  m_Direction: 1
+  m_Center: {x: 1.0342792e-17, y: -0.015073841, z: 0.00000048222097}
 --- !u!1 &5443211696910027819
 GameObject:
   m_ObjectHideFlags: 0
