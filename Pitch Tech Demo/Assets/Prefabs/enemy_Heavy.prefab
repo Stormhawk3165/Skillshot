@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4401127795566843675}
   - component: {fileID: 4401127795566843673}
   - component: {fileID: 4401127795566843677}
-  - component: {fileID: 1892687575464765677}
+  - component: {fileID: 1881979972334633429}
   m_Layer: 3
   m_Name: enemy_Heavy
   m_TagString: EnemyHeavy
@@ -154,7 +154,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 1
+  m_BaseOffset: 0.74
   m_WalkableMask: 5
   m_ObstacleAvoidanceType: 4
 --- !u!54 &4401127795566843677
@@ -173,7 +173,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!136 &1892687575464765677
+--- !u!136 &1881979972334633429
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,10 +183,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.49999997
-  m_Height: 1.3491025
+  m_Radius: 0.49999994
+  m_Height: 1.2597029
   m_Direction: 1
-  m_Center: {x: 1.0342792e-17, y: -0.015073841, z: 0.00000048222097}
+  m_Center: {x: 1.0342792e-17, y: -0.12985127, z: 0.00000048222097}
 --- !u!1 &5443211696910027819
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 4565973881673214297}
   - component: {fileID: 2245967477283832636}
   - component: {fileID: 1104275066326585792}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Detection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
