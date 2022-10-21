@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4844944329559434985
 Transform:
@@ -102,6 +102,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
       propertyPath: m_Name
       value: Skillshot_PinB_Tri2Asset_Low_hsr
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696524008066002052, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077033409556765725, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2742536599411112399, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
       propertyPath: m_Materials.Array.data[0]
