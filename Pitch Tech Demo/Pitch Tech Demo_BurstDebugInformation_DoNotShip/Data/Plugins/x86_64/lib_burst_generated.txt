@@ -105,7 +105,6 @@ Library: lib_burst_generated
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
---compilation-defines=UNITY_PRO_LICENSE
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -144,36 +143,36 @@ Library: lib_burst_generated
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --linker-options=PdbAltPath="Pitch Tech Demo_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
---output=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Postprocessing.Runtime.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Burst.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Cinemachine.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
---assembly-folder=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\
+--output=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Postprocessing.Runtime.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Burst.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Cinemachine.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+--assembly-folder=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9
@@ -294,7 +293,6 @@ Library: lib_burst_generated
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
---compilation-defines=UNITY_PRO_LICENSE
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -333,43 +331,43 @@ Library: lib_burst_generated
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --linker-options=PdbAltPath="Pitch Tech Demo_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
---output=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Postprocessing.Runtime.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Burst.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Cinemachine.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
---root-assembly=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
---assembly-folder=D:\UnityFIles\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\
+--output=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Postprocessing.Runtime.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Burst.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Cinemachine.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+--root-assembly=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+--assembly-folder=C:\Users\h_ross130038\Documents\GitHub\Skillshot\Pitch Tech Demo\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
---method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.SliceCullingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.SliceCullingJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--1998da082e6413092f0e7bcd5a0e9331
---method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
---method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.VisibleLight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.VisibleLight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b04c75a68edf1d166f6547f2ea0e8928
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.MinMaxZJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.MinMaxZJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--d23a07cb3c3f217121d5bf94e76674f0
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.Rendering.Universal.RadixSortJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.RadixSortJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--26c6d10914da2fc98755b3533c59141e
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.SliceCombineJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.SliceCombineJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e046a1595d0148509657ed4dbcb52a86
+--method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.SliceCullingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.SliceCullingJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--1998da082e6413092f0e7bcd5a0e9331
+--method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
+--method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.VisibleLight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.VisibleLight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b04c75a68edf1d166f6547f2ea0e8928
 --method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
