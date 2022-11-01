@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3288767529725699623}
   m_Layer: 0
   m_Name: PinballFlipper_DB
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,6 +103,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 795daf8b181df9c47be1880ad50c2657, type: 3}
       propertyPath: m_Name
       value: Flipper_DB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 795daf8b181df9c47be1880ad50c2657, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 795daf8b181df9c47be1880ad50c2657, type: 3}
@@ -220,6 +224,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 795daf8b181df9c47be1880ad50c2657, type: 3}
       propertyPath: m_Name
       value: Flipper_DB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 795daf8b181df9c47be1880ad50c2657, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 795daf8b181df9c47be1880ad50c2657, type: 3}
