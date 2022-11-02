@@ -103,6 +103,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCorner_New
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ef157f886833964ca34fe3e2f3ea319, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ef157f886833964ca34fe3e2f3ea319, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ef157f886833964ca34fe3e2f3ea319, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef157f886833964ca34fe3e2f3ea319, type: 3}
 --- !u!1 &1158035771782614946 stripped
