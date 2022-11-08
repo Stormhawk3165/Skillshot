@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfbdbb87d3286943a057f7791b43141, type: 3}
   m_Name: ChannelMixer
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   redOutRedIn:
     m_OverrideState: 1
     m_Value: 58
@@ -167,7 +167,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: -0.361
+    m_Value: 0.45
   xMultiplier:
     m_OverrideState: 0
     m_Value: 0.636
@@ -178,8 +178,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
   scale:
-    m_OverrideState: 0
-    m_Value: 0.92
+    m_OverrideState: 1
+    m_Value: 1.13
 --- !u!114 &5029350500122508687
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -217,16 +217,16 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 73.4
+    m_Value: 50
   colorFilter:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
-    m_OverrideState: 1
-    m_Value: -3
+    m_OverrideState: 0
+    m_Value: -22
   saturation:
     m_OverrideState: 1
-    m_Value: 35
+    m_Value: 5
 --- !u!114 &6521503418969921765
 MonoBehaviour:
   m_ObjectHideFlags: 3
