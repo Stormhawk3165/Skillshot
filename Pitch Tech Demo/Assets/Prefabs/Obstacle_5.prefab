@@ -119,6 +119,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
   m_PrefabInstance: {fileID: 39949729916160953}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &886232488350562024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
+  m_PrefabInstance: {fileID: 39949729916160953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3891818991293033122
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886232488350562024}
+  m_Material: {fileID: 13400000, guid: 91bb8d83b6ef21e4e97111668f90bdfa, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1148369155797770837, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
 --- !u!1001 &5725227579106801999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,6 +208,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
       propertyPath: m_Name
       value: Skillshot_PinB_Tri2Asset_Low_hsr
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c84a88191576d9c4589431a4f8a4a3ad, type: 3}
       propertyPath: m_StaticEditorFlags

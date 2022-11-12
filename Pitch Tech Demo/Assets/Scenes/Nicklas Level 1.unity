@@ -13250,11 +13250,44 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: multiCam
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: enableText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: spriteDepth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: distCalTargetTag
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: enableGameObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: toggleTextOptions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: enableCenteredTracking
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7112714744543198966, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 457258321}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
 --- !u!1001 &1820865862
 PrefabInstance:
