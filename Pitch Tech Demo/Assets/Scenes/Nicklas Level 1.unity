@@ -1321,8 +1321,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor2","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LDoor3","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor3","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LDoor4","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor4","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LDoor4","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor4","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1622387168}
@@ -1331,8 +1331,6 @@ MonoBehaviour:
     - {fileID: 1453349082}
     - {fileID: 454443424}
     - {fileID: 937238648}
-    - {fileID: 0}
-    - {fileID: 0}
 --- !u!65 &187412962
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3247,7 +3245,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457258318}
-  m_LocalRotation: {x: 0.42201257, y: -0.000000015599133, z: 0.0000000072613084, w: 0.90659}
+  m_LocalRotation: {x: 0.42201257, y: 0.000000015599133, z: -0.0000000072613084, w: 0.90659}
   m_LocalPosition: {x: -44.999996, y: 16.6, z: -38.300003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11149,9 +11147,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor2","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LDoor3","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor3","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LDoor4","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor4","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LDoor4","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RDoor4","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RoomCompleted","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1622387168}
     - {fileID: 1622387169}
@@ -11159,8 +11158,6 @@ MonoBehaviour:
     - {fileID: 1453349082}
     - {fileID: 454443424}
     - {fileID: 937238648}
-    - {fileID: 0}
-    - {fileID: 0}
 --- !u!65 &1493513028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13339,10 +13336,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RicochetPlayerController
       objectReference: {fileID: 0}
-    - target: {fileID: 2174113408147353540, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2174113408147353547, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -13387,44 +13380,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: multiCam
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: enableText
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: spriteDepth
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: distCalTargetTag
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: enableGameObject
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: toggleTextOptions
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: enableCenteredTracking
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7112714744543198966, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 457258321}
-    m_RemovedComponents:
-    - {fileID: 6424490558546307613, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
 --- !u!1001 &1820865862
 PrefabInstance:
@@ -15573,7 +15533,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007519255}
-  m_LocalRotation: {x: 0.42201257, y: -0.000000015599133, z: 0.0000000072613084, w: 0.90659}
+  m_LocalRotation: {x: 0.42201257, y: 0.000000015599133, z: -0.0000000072613084, w: 0.90659}
   m_LocalPosition: {x: -44.999996, y: 16.6, z: -38.300003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
