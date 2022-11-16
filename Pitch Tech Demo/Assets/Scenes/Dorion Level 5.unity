@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -665,7 +665,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45318798}
-  m_LocalRotation: {x: 0.4220126, y: 0.000000015599133, z: -0.00000000726131, w: 0.90659}
+  m_LocalRotation: {x: 0.4220126, y: -0.00000001559913, z: 0.0000000072613093, w: 0.90659}
   m_LocalPosition: {x: -10, y: 16.6, z: -4.999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3731,7 +3731,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592706643}
-  m_LocalRotation: {x: 0.4220126, y: 0.000000015599133, z: -0.00000000726131, w: 0.90659}
+  m_LocalRotation: {x: 0.4220126, y: -0.00000001559913, z: 0.0000000072613093, w: 0.90659}
   m_LocalPosition: {x: -10, y: 16.6, z: -4.999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4619,8 +4619,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701077120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: -3.1, z: 152}
-  m_LocalScale: {x: 166.81622, y: 13.416508, z: 348.36633}
+  m_LocalPosition: {x: -11, y: -3.1, z: 31.8}
+  m_LocalScale: {x: 166.81622, y: 13.416508, z: 105.48043}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4930,8 +4930,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766818412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5308485, y: 3.2, z: 141.3}
-  m_LocalScale: {x: 82.236, y: 13.416508, z: 95.22405}
+  m_LocalPosition: {x: -9.5308485, y: 3.2, z: 137.6}
+  m_LocalScale: {x: 82.236, y: 13.416508, z: 108.75539}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6110,10 +6110,17 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Right_Door","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Left_Door","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemiesLeft","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RespawnPointBallR3_1","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RespawnPointBallR3_2","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GhostRespawn_Room3","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GhostCount","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 407090641}
     - {fileID: 407090640}
+    - {fileID: 6952570}
+    - {fileID: 722264438}
+    - {fileID: 2010785806}
 --- !u!65 &874084687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6185,8 +6192,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874084684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5, y: -3.8, z: 268}
-  m_LocalScale: {x: 133.60062, y: 13.416508, z: 151.37767}
+  m_LocalPosition: {x: -10.4, y: -3.8, z: 268}
+  m_LocalScale: {x: 165.30405, y: 13.416508, z: 151.37767}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
