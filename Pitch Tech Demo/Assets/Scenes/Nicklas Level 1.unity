@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3614,7 +3614,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457258318}
-  m_LocalRotation: {x: 0.42201257, y: -0.000000015599133, z: 0.0000000072613084, w: 0.90659}
+  m_LocalRotation: {x: 0.42201257, y: 0.000000015599133, z: -0.0000000072613084, w: 0.90659}
   m_LocalPosition: {x: -45.97, y: 16.6, z: -58.160004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12311,15 +12311,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562032154290057607, guid: 27c0dbbfc00e4c1439112d5b7acca6ec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1562032154290057607, guid: 27c0dbbfc00e4c1439112d5b7acca6ec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1562032154290057607, guid: 27c0dbbfc00e4c1439112d5b7acca6ec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1562032154290057607, guid: 27c0dbbfc00e4c1439112d5b7acca6ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14553,26 +14553,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1219554582, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219554583, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4.9767146
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219554583, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.90128297
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219554583, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.9767146
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219554583, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 19
-      objectReference: {fileID: 0}
     - target: {fileID: 2174113408147353536, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_Name
       value: RicochetPlayerController
@@ -16833,7 +16813,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007519255}
-  m_LocalRotation: {x: 0.42201257, y: -0.000000015599133, z: 0.0000000072613084, w: 0.90659}
+  m_LocalRotation: {x: 0.42201257, y: 0.000000015599133, z: -0.0000000072613084, w: 0.90659}
   m_LocalPosition: {x: -45.97, y: 16.6, z: -58.160004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
