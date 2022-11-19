@@ -107,8 +107,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCorner 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
+--- !u!1 &5159518653337825985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
+  m_PrefabInstance: {fileID: 5429972468619988880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8953786094406241324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5159518653337825985}
+  m_Material: {fileID: 13400000, guid: c8c73fcd54ac7e04c84f2ef911bbf290, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.477533, y: 2.3209076, z: 2.0669062}
+  m_Center: {x: -0.019652367, y: 0.00000017881403, z: 1.0334531}
 --- !u!4 &5535375075110529147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}

@@ -666,7 +666,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45318798}
-  m_LocalRotation: {x: 0.4220126, y: 0.000000015599133, z: -0.00000000726131, w: 0.90659}
+  m_LocalRotation: {x: 0.4220126, y: -0.00000001559913, z: 0.0000000072613093, w: 0.90659}
   m_LocalPosition: {x: -10, y: 16.6, z: -4.999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -697,7 +697,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -3415,7 +3415,7 @@ Transform:
   - {fileID: 2127257090}
   - {fileID: 381878476}
   m_Father: {fileID: 1486568412}
-  m_RootOrder: 19
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1001 &580574011
 PrefabInstance:
@@ -3611,7 +3611,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592706643}
-  m_LocalRotation: {x: 0.4220126, y: 0.000000015599133, z: -0.00000000726131, w: 0.90659}
+  m_LocalRotation: {x: 0.4220126, y: -0.00000001559913, z: 0.0000000072613093, w: 0.90659}
   m_LocalPosition: {x: -10, y: 16.6, z: -4.999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3719,7 +3719,7 @@ Transform:
   - {fileID: 320700599}
   - {fileID: 789904743}
   m_Father: {fileID: 1486568412}
-  m_RootOrder: 9
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &615023151
 PrefabInstance:
@@ -5083,6 +5083,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4844944329559434985, guid: 9a578dc9575bb8f44a110b50adfec402, type: 3}
   m_PrefabInstance: {fileID: 825779967}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &827188600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827188602}
+  - component: {fileID: 827188601}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &827188601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827188600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: df5469cbca0477c408888bef9e79b23e, type: 2}
+--- !u!4 &827188602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827188600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -232, y: -86.17424, z: 95.9335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &830075393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8417,27 +8466,27 @@ Transform:
   - {fileID: 1530147553}
   - {fileID: 580574012}
   - {fileID: 1051973077}
+  - {fileID: 602618933}
   - {fileID: 245315504}
   - {fileID: 806716438}
   - {fileID: 280433226}
   - {fileID: 130281308}
   - {fileID: 1358813482}
   - {fileID: 2000950713}
-  - {fileID: 602618933}
   - {fileID: 661337989}
   - {fileID: 28187612}
   - {fileID: 1806236253}
   - {fileID: 1244362679}
   - {fileID: 1649984152}
+  - {fileID: 569445735}
   - {fileID: 376406115}
   - {fileID: 1431282313}
   - {fileID: 404164101}
   - {fileID: 1117001934}
-  - {fileID: 569445735}
-  - {fileID: 1519146353}
-  - {fileID: 1310624958}
   - {fileID: 959571902}
   - {fileID: 2025233525}
+  - {fileID: 1519146353}
+  - {fileID: 1310624958}
   - {fileID: 808752729}
   m_Father: {fileID: 1225936728}
   m_RootOrder: 0
