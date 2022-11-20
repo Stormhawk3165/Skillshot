@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1562032154290057603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -46.279, y: 0.06, z: -6.6469}
-  m_LocalScale: {x: 4.9204135, y: 4.9204135, z: 15.170996}
+  m_LocalScale: {x: 2.2117524, y: 2.2117524, z: 2.2117524}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5535375075110529147}
@@ -45,19 +45,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.920413
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5958389
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.920413
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.58517194
+      value: -4.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalPosition.y
@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.18651062
+      value: 1.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -97,7 +97,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: c6c3fc73f8cc7f34587405518d0ef9ac, type: 3}
       propertyPath: m_Materials.Array.data[0]

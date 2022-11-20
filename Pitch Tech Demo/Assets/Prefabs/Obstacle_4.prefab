@@ -229,6 +229,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
+    - target: {fileID: -6415892332176443927, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
+    - target: {fileID: -5672599456686071947, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
     - target: {fileID: 919132149155446097, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_Name
       value: Skillshot_PinB_SqAsset_Low_hsr (1)
