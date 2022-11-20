@@ -334,10 +334,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92031b1d39f07b5469f0fbe0633a4299, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
     - target: {fileID: 919132149155446097, guid: 92031b1d39f07b5469f0fbe0633a4299, type: 3}
       propertyPath: m_Name
       value: Skillshot_PinB_RdAsset_Low_hsr
       objectReference: {fileID: 0}
+    - target: {fileID: 1304547082926749308, guid: 92031b1d39f07b5469f0fbe0633a4299, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
+    - target: {fileID: 4697453712245557449, guid: 92031b1d39f07b5469f0fbe0633a4299, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92031b1d39f07b5469f0fbe0633a4299, type: 3}
 --- !u!4 &7072263111584822842 stripped
