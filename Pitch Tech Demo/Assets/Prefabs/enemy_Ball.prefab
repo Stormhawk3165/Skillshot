@@ -37,6 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1021795115093179671}
+  - {fileID: 5370486058905716831}
   m_Father: {fileID: 1021795114808999521}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -319,7 +320,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 612191314379829358}
-  - {fileID: 5370486058905716831}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -179.965, z: 0}
@@ -728,7 +728,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1021795114808999521}
+    m_TransformParent: {fileID: 612191314379829358}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_RootOrder
@@ -736,15 +736,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.72324634
+      value: 0.7232464
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.72324616
+      value: 0.7232462
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.72324634
+      value: 0.7232463
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -752,7 +752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2800001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e47667b52a94444b93c1bc97f2109ab, type: 3}
       propertyPath: m_LocalPosition.z
