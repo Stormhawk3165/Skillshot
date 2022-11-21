@@ -671,6 +671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy_Ghost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 576748539460010614, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
 --- !u!1 &107359285
@@ -1297,6 +1301,10 @@ PrefabInstance:
     - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_Name
       value: enemy_Electric (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2081496296564786008, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_RootOrder
@@ -2072,6 +2080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy_Ghost (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 576748539460010614, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
 --- !u!1 &301384487
@@ -2842,7 +2854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7669219251577399771, guid: dcf96be89fd236e4cbdd0cefc0db277b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.45977
+      value: 54.33
       objectReference: {fileID: 0}
     - target: {fileID: 7669219251577399771, guid: dcf96be89fd236e4cbdd0cefc0db277b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2850,7 +2862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7669219251577399771, guid: dcf96be89fd236e4cbdd0cefc0db277b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.683708
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: 7669219251577399771, guid: dcf96be89fd236e4cbdd0cefc0db277b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6735,10 +6747,10 @@ Transform:
   - {fileID: 1355465481}
   - {fileID: 1600136727}
   - {fileID: 407090642}
-  - {fileID: 1159661730}
-  - {fileID: 1131536211}
   - {fileID: 244949239}
+  - {fileID: 1159661730}
   - {fileID: 429684133}
+  - {fileID: 1131536211}
   - {fileID: 441469020}
   - {fileID: 485610157}
   m_Father: {fileID: 1225936728}
@@ -8572,6 +8584,10 @@ PrefabInstance:
     - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_Name
       value: enemy_Electric (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2081496296564786008, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_RootOrder
@@ -11552,6 +11568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy_Electric (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2081496296564786008, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -11695,6 +11715,10 @@ PrefabInstance:
     - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_Name
       value: enemy_Electric (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2081496296564786008, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_RootOrder
@@ -11958,6 +11982,10 @@ PrefabInstance:
     - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_Name
       value: enemy_Electric (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081496296564785984, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2081496296564786008, guid: e9501e02048afda4a84cfe27a44826bf, type: 3}
       propertyPath: m_RootOrder
