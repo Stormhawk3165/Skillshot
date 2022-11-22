@@ -3513,6 +3513,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4844944329559434985, guid: 14c56ebd1b40b2344a8ecc301255eb52, type: 3}
   m_PrefabInstance: {fileID: 424408545}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &426862620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2117830666387869237, guid: 87f6c0237dbc8d949a796bce7b620af5, type: 3}
+  m_PrefabInstance: {fileID: 1355465477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &429684132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6891,8 +6896,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FinalDoor","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 407090641}
-    - {fileID: 407090640}
+    - {fileID: 1621719930}
+    - {fileID: 426862620}
     - {fileID: 6952570}
     - {fileID: 722264438}
     - {fileID: 2010785806}
@@ -7632,6 +7637,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RespawnDeactive","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Room
       1 Respawn","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FinalDoor","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &990077546
@@ -10755,6 +10761,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 668821533334677466, guid: 5f0a201307ec8064fbcd1a66376b2528, type: 3}
   m_PrefabInstance: {fileID: 1621699567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1621719930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1413604573340972, guid: 87f6c0237dbc8d949a796bce7b620af5, type: 3}
+  m_PrefabInstance: {fileID: 1355465477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1628421136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11148,7 +11159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1405702134583274624, guid: 53cc3e49345efa448821ff6c612c7a74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -83.11
+      value: -83.52
       objectReference: {fileID: 0}
     - target: {fileID: 1405702134583274624, guid: 53cc3e49345efa448821ff6c612c7a74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11156,7 +11167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1405702134583274624, guid: 53cc3e49345efa448821ff6c612c7a74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -220.46
+      value: -220.41
       objectReference: {fileID: 0}
     - target: {fileID: 1405702134583274624, guid: 53cc3e49345efa448821ff6c612c7a74, type: 3}
       propertyPath: m_LocalRotation.w
