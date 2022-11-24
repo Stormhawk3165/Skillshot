@@ -267,8 +267,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2
-  m_Acceleration: 5
+  m_Speed: 7
+  m_Acceleration: 12.67
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -1159,7 +1159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &9219521053194906825
 Transform:
   m_ObjectHideFlags: 0
@@ -1169,7 +1169,7 @@ Transform:
   m_GameObject: {fileID: 7296741793083682774}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.00000017243, y: -3.41e-13, z: 1.0786e-10}
-  m_LocalScale: {x: 6.233965, y: -0.05603954, z: 6.233965}
+  m_LocalScale: {x: 6.790785, y: -0.061045006, z: 6.790785}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1923635338309406039}
