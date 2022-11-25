@@ -12,7 +12,7 @@ public class MeshTrailMain : MonoBehaviour
 
 
     private bool isTrailActive;
-
+    
     private void Start()
     {
         isTrailActive = false;
@@ -20,9 +20,37 @@ public class MeshTrailMain : MonoBehaviour
 
     private void Update()
     {
-        if (isTrailActive == false)
+        if (!isTrailActive)
         {
             isTrailActive = true;
+            StartCoroutine(ActivateTrail(_activeTime));
         }
+    }
+
+    IEnumerator ActivateTrail(float timeActive)
+    {
+        while (timeActive > 0)
+        {
+            timeActive -= _meshRefreshRate;
+
+            if (skinnedMeshRenderers == null)
+            {
+                skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+            }
+
+            for (int i = 0; i < skinnedMeshRenderers.Length; i++)
+            {
+                GameObject gObj = new GameObject();
+                MeshRenderer mr = gObj.AddComponent<MeshRenderer>();
+                MeshFilter mf = gObj.AddComponent<MeshFilter>();
+                Mesh mesh = new Mesh();
+                skinnedMeshRenderers[i].BakeMesh(mesh);
+                mf.mesh = mesh;
+            }
+
+            yield return new WaitForSeconds(meshRefreshRate);
+        }
+
+        isTrailActive = false;
     }
 }
