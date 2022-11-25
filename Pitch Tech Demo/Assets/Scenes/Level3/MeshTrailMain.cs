@@ -1,56 +1,56 @@
-using System.Collections;
+/* using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MeshTrailMain : MonoBehaviour
 {
 
-    [SerializeField] private float _activeTime = 2f;
-    [SerializeField] private float _meshRefreshRate = 0.1f;
-    [SerializeField] private MeshRenderer _meshToCreate;
-    [SerializeField] private bool _isMoving;
+   [SerializeField] private float _activeTime = 2f;
+   [SerializeField] private float _meshRefreshRate = 0.1f;
+   [SerializeField] private MeshRenderer _meshToCreate;
+   [SerializeField] private bool _isMoving;
 
 
-    private bool isTrailActive;
-    
-    private void Start()
-    {
-        isTrailActive = false;
-    }
+   private bool isTrailActive;
 
-    private void Update()
-    {
-        if (!isTrailActive)
-        {
-            isTrailActive = true;
-            StartCoroutine(ActivateTrail(_activeTime));
-        }
-    }
+   private void Start()
+   {
+       isTrailActive = false;
+   }
 
-    IEnumerator ActivateTrail(float timeActive)
-    {
-        while (timeActive > 0)
-        {
-            timeActive -= _meshRefreshRate;
+   private void Update()
+   {
+       if (!isTrailActive)
+       {
+           isTrailActive = true;
+           StartCoroutine(ActivateTrail(_activeTime));
+       }
+   }
 
-            if (skinnedMeshRenderers == null)
-            {
-                skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
-            }
+ IEnumerator ActivateTrail(float timeActive)
+   {
+       while (timeActive > 0)
+       {
+           timeActive -= _meshRefreshRate;
 
-            for (int i = 0; i < skinnedMeshRenderers.Length; i++)
-            {
-                GameObject gObj = new GameObject();
-                MeshRenderer mr = gObj.AddComponent<MeshRenderer>();
-                MeshFilter mf = gObj.AddComponent<MeshFilter>();
-                Mesh mesh = new Mesh();
-                skinnedMeshRenderers[i].BakeMesh(mesh);
-                mf.mesh = mesh;
-            }
+           if (skinnedMeshRenderers == null)
+           {
+               skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+           }
 
-            yield return new WaitForSeconds(meshRefreshRate);
-        }
+           for (int i = 0; i < skinnedMeshRenderers.Length; i++)
+           {
+               GameObject gObj = new GameObject();
+               MeshRenderer mr = gObj.AddComponent<MeshRenderer>();
+               MeshFilter mf = gObj.AddComponent<MeshFilter>();
+               Mesh mesh = new Mesh();
+               skinnedMeshRenderers[i].BakeMesh(mesh);
+               mf.mesh = mesh;
+           }
 
-        isTrailActive = false;
-    }
-}
+           yield return new WaitForSeconds(meshRefreshRate);
+       }
+
+       isTrailActive = false;
+   }
+}*/
