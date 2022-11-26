@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BorderTexture:
-        m_Texture: {fileID: 2800000, guid: 4f78275d48acf5d40b8b9cee7af59b3f, type: 3}
+        m_Texture: {fileID: 2800000, guid: a63bc4985c8fb7143bc7a18c983dd86a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -78,6 +78,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 2800000, guid: 6fd2a33f7512ed84ab128f3a10d49d58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_54a829a144b242d496736d7f26d0ba58_Texture_1:
+        m_Texture: {fileID: 2800000, guid: a63bc4985c8fb7143bc7a18c983dd86a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -138,7 +142,7 @@ Material:
     - _BorderColor_1: {r: 1, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DotsColor: {r: 1.720795, g: 0, b: 1.720795, a: 1}
-    - _DotsTiling: {r: 8, g: 8, b: 0, a: 0}
+    - _DotsTiling: {r: 38.9, g: 8, b: 0, a: 0}
     - _EmissionColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
     - _NoiseSpeed: {r: 0, g: 0.2, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
