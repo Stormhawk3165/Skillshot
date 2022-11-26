@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 799369549634709548}
   - component: {fileID: 4375306186202982281}
   - component: {fileID: 1971664602330714947}
+  - component: {fileID: 5200754046360807059}
   m_Layer: 0
   m_Name: EnergyWallBorderVar1Purple
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5200754046360807059
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25964908446085782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5250329, y: 0.47932798, z: 2.727937}
+  m_Center: {x: -0.019155242, y: -0.000000014901161, z: 1.3639685}
