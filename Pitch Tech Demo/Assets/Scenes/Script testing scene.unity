@@ -880,10 +880,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 247183553281358809, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 576748539460010606, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -931,10 +927,6 @@ PrefabInstance:
     - target: {fileID: 576748539460010614, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
       propertyPath: m_Name
       value: enemy_Ghost
-      objectReference: {fileID: 0}
-    - target: {fileID: 576748539460010614, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
