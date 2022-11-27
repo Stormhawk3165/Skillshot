@@ -5271,7 +5271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 576748539460010606, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.47
+      value: 2.36
       objectReference: {fileID: 0}
     - target: {fileID: 576748539460010606, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5304,6 +5304,10 @@ PrefabInstance:
     - target: {fileID: 576748539460010614, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
       propertyPath: m_Name
       value: enemy_Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 576748539460010614, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
+      propertyPath: m_TagString
+      value: EnemyGhost
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e83e684d119138499cd11fe4b63aa53, type: 3}
@@ -7639,7 +7643,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504515544}
-  m_LocalRotation: {x: 0.38842243, y: 3e-45, z: -1e-45, w: 0.92148143}
+  m_LocalRotation: {x: 0.38842243, y: -1e-45, z: 1e-45, w: 0.92148143}
   m_LocalPosition: {x: -53.31, y: 25.090002, z: 85.100006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17873,6 +17877,18 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 620902934}
+    - target: {fileID: 8521647418876917696, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860779772041507628, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860779772184575394, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8860779772326492336, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -17921,7 +17937,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PressurePlate
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8860779772326492337, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8860779772184575407, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
+    - {fileID: 8860779772041507630, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c4413e6adafefb14d943e6cd180728c5, type: 3}
 --- !u!1001 &1198732335
 PrefabInstance:
@@ -24527,7 +24549,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559962368}
-  m_LocalRotation: {x: 0.38842243, y: 3e-45, z: -1e-45, w: 0.92148143}
+  m_LocalRotation: {x: 0.38842243, y: -1e-45, z: 1e-45, w: 0.92148143}
   m_LocalPosition: {x: -53.31, y: 25.090002, z: 85.100006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
