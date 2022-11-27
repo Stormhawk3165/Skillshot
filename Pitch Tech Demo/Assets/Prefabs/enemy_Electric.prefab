@@ -956,11 +956,10 @@ GameObject:
   - component: {fileID: 1474456478649345925}
   - component: {fileID: 2398769267029278007}
   - component: {fileID: 5594902867943245437}
-  - component: {fileID: 2069313580194985432}
   - component: {fileID: 4322300029095158562}
   - component: {fileID: 7175978023462713963}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,13 +973,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4259707388443600339}
   m_LocalRotation: {x: 0, y: 0.99999994, z: 0, w: 0.00030559773}
-  m_LocalPosition: {x: 0.0000032513, y: 0.00002401, z: -0.0000017247}
-  m_LocalScale: {x: 0.9857486, y: -109.656876, z: 0.9857486}
+  m_LocalPosition: {x: 0.0000033413153, y: -5.5860425e-12, z: -0.0000017430621}
+  m_LocalScale: {x: 0.98574865, y: -109.65686, z: 0.98574865}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9219521053194906825}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 179.965, z: 0}
 --- !u!33 &2398769267029278007
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1009,7 +1008,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7d28e687258a1784181d57cae586d3f8, type: 2}
+  - {fileID: 2100000, guid: 701d97eed81ffe34f9551a86a6daea87, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1031,19 +1030,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2069313580194985432
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4259707388443600339}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.49999994
-  m_Center: {x: 0.000011444086, y: 0.00000023841856, z: -0.0000028610216}
 --- !u!198 &4322300029095158562
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -6071,7 +6057,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7296741793083682774}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
