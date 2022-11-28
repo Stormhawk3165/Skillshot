@@ -234,13 +234,15 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Overcharge
       AOE","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsActive","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Mainbody","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 7296741793083682774}
     - {fileID: 1043852962619546570}
     - {fileID: 2264136034990702615}
+    - {fileID: 8250831685864818246}
 --- !u!114 &2628300782778388055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,7 +976,7 @@ Transform:
   m_GameObject: {fileID: 4259707388443600339}
   m_LocalRotation: {x: 0, y: 0.99999994, z: 0, w: 0.00030559773}
   m_LocalPosition: {x: 0.0000033413153, y: -5.5860425e-12, z: -0.0000017430621}
-  m_LocalScale: {x: 0.98574865, y: -109.65686, z: 0.98574865}
+  m_LocalScale: {x: 0.98574877, y: -109.656845, z: 0.98574877}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8123056936282649741}
@@ -1047,7 +1049,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -1167,7 +1169,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 11.93
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -11029,7 +11031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 83065fceba079f4469888f5dff26d649, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.510062
+      value: 0.51006186
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 83065fceba079f4469888f5dff26d649, type: 3}
       propertyPath: m_LocalScale.y
@@ -11037,7 +11039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 83065fceba079f4469888f5dff26d649, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.510062
+      value: 0.51006186
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 83065fceba079f4469888f5dff26d649, type: 3}
       propertyPath: m_LocalPosition.x
