@@ -138,7 +138,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -138
     y: -270
-    width: 3353
+    width: 3354
     height: 2121
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: GhostEnemySpawnerEffect
+  m_Name: SparkEnemySpawnerEffect 1
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -223,7 +223,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":3772797090071207700,"guid":"4d8479b4473ac104a9bf3aaa1dc1690f","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":5335336529218499792,"guid":"e5c3d3cb583054b48a7db23f3ccd782c","type":3}}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -237,7 +237,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.7
+      m_SerializableObject: 0.4
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -295,7 +295,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GhostEnemySpawnerEffect
+  m_Name: SparkEnemySpawnerEffect 1
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -6418,7 +6418,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":3772797090071207700,"guid":"4d8479b4473ac104a9bf3aaa1dc1690f","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":5335336529218499792,"guid":"e5c3d3cb583054b48a7db23f3ccd782c","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -6560,7 +6560,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.7
+      m_SerializableObject: 0.4
     m_Space: 2147483647
   m_Property:
     name: o
