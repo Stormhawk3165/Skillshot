@@ -321,7 +321,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -0.103, z: 0}
   m_LocalScale: {x: 6.9690084, y: 0.56953454, z: 7.654918}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2373841634893786166}
   m_Father: {fileID: 4401127795566843654}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -388,6 +389,160 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6204897983061164305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2373841634893786166}
+  - component: {fileID: 9152764135961288196}
+  m_Layer: 0
+  m_Name: Tracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2373841634893786166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204897983061164305}
+  m_LocalRotation: {x: -0, y: 0.99999994, z: -0, w: 0.0003076042}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.081404, y: 0.966678, z: 0.07410989}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3782384963709360694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9152764135961288196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204897983061164305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8057c976b872b494aba079f605e2e5b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas_tag_name: Canvas
+  camera_tag_name: MainCamera
+  multiCam: 0
+  distCalTargetTag: Player
+  enableStandardTracking: 1
+  enableCenteredTracking: 0
+  showBoundaryBox: 0
+  boundaryBoxColor: {r: 1, g: 1, b: 0.4, a: 1}
+  parentSize: {x: 150, y: 150}
+  displayRangeMin: 0
+  displayRangeMax: 50.17
+  raycastTarget: 1
+  enableSprite: 1
+  spriteDepth: 0
+  offScreenSpriteRotates: 0
+  onScreenSprite: {fileID: 21300000, guid: 9aa4348290784b2468144a97eb15d8d7, type: 3}
+  onScreenSpriteColor: {r: 0.20000002, g: 0.20000002, b: 0.20000002, a: 1}
+  onScreenSpriteSize: 0
+  onScreenSpriteOffset: {x: 0, y: 0}
+  onScreenSpriteRotation: 0
+  onScreenSpriteFadeWithRange: 0
+  onScreenSpriteScaleWithRange: 0
+  reverseOnScreenSpriteScaleWithRange: 0
+  onScreenSpriteHide: 0
+  offScreenSprite: {fileID: 21300000, guid: e3d25b94435cfc244acde5efba5a4901, type: 3}
+  offScreenSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+  offScreenSpriteSize: 0.2
+  offScreenSpriteOffset: {x: 0, y: 0}
+  offScreenSpriteRotation: 0
+  offScreenSpriteFadeWithRange: 1
+  offScreenScaleWithRange: 1
+  reverseOffScreenSpriteScaleWithRange: 0
+  offScreenSpriteHide: 0
+  enableGameObject: 0
+  gameObjectDepth: 0
+  offScreenObjectRotates: 0
+  onScreenGameObject: {fileID: 0}
+  onScreenGameObjectColor: {r: 1, g: 1, b: 1, a: 1}
+  onScreenGameObjectSize: 1
+  onScreenGameObjectOffset: {x: 0, y: 0}
+  onScreenGameObjectRotation: 0
+  onScreenGameObjectFadeWithRange: 0
+  onScreenGameObjectScaleWithRange: 0
+  reverseOnScreenGameObjectScaleWithRange: 0
+  onScreenGameObjectHide: 0
+  offScreenGameObject: {fileID: 0}
+  offScreenGameObjectColor: {r: 1, g: 1, b: 1, a: 1}
+  offScreenGameObjectSize: 1
+  offScreenGameObjectOffset: {x: 0, y: 0}
+  offScreenGameObjectRotation: 0
+  offScreenGameObjectFadeWithRange: 0
+  offScreenGameObjectScaleWithRange: 0
+  reverseOffScreenGameObjectScaleWithRange: 0
+  offScreenGameObjectHide: 0
+  enableText: 0
+  textDepth: 0
+  textDescription: Hello!
+  distIncrement: m
+  textFont: {fileID: 0}
+  textSize: 40
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  textAlign: 1
+  textLineSpacing: 20
+  edgeDetectOffset: {x: 0, y: 0}
+  onScreenSpriteHideDesc: 0
+  onScreenSpriteHideDist: 0
+  onScreenTextOffset: {x: 0, y: 0}
+  offScreenSpriteHideDesc: 0
+  offScreenSpriteHideDist: 0
+  offScreenTextOffset: {x: 0, y: 0}
+  showDiameter: 0
+  diameterColor: {r: 0, g: 0, b: 0, a: 1}
+  diameterSize: 50
+  onScreenCenteredRangeMin: 0
+  onScreenCenteredRangeMax: 50
+  raycastTargetCentered: 0
+  enableCenteredSprite: 1
+  onScreenCenteredSpriteDepth: 0
+  onScreenCenteredSprite: {fileID: 21300000, guid: 6d417896cc847604583460e3395bbab7, type: 3}
+  onScreenCenteredSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+  onScreenCenteredSpriteSize: 1
+  onScreenCenteredSpriteRotation: 0
+  onScreenSpriteCenteredFadeWithRange: 0
+  onScreenSpriteCenteredScaleWithRange: 0
+  onScreenSpriteCenteredScaleReverse: 0
+  hideOnScreenCenteredSprite: 0
+  hideOffScreenCenteredSprite: 0
+  enableCenteredPrefab: 0
+  onScreenCenteredPrefabDepth: 0
+  onScreenCenteredPrefab: {fileID: 0}
+  onScreenCenteredPrefabColor: {r: 1, g: 1, b: 1, a: 1}
+  onScreenCenteredPrefabSize: 1
+  onScreenCenteredPrefabRotation: 0
+  onScreenPrefabCenteredFadeWithRange: 0
+  onScreenPrefabCenteredScaleWithRange: 0
+  onScreenPrefabCenteredScaleReverse: 0
+  hideOnScreenCenteredPrefab: 0
+  hideOffScreenCenteredPrefab: 0
+  enableRadiusGizmo: 0
+  radiusGizmoColor: {r: 0, g: 0, b: 0, a: 1}
+  radiusGizmoSize: 50
+  toggleSetupOptions: 1
+  toggleParentOptions: 1
+  toggleSpriteOptions: 1
+  toggleGameObjectOptions: 1
+  toggleTextOptions: 1
+  toggleDiameterOptions: 1
+  toggleCenteredSpriteOptions: 1
+  toggleCenteredPrefabOptions: 0
+  toggleRadiusGizmoOptions: 0
 --- !u!1 &7433449192197209455
 GameObject:
   m_ObjectHideFlags: 0
