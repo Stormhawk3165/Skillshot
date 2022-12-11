@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2174113408147353536, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_Name
-      value: RicochetPlayerController
+      value: PlayerCharacter
       objectReference: {fileID: 0}
     - target: {fileID: 2174113408147353542, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
@@ -58,6 +58,10 @@ PrefabInstance:
     - target: {fileID: 2174113408147353547, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887959084970403392, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7110218963142319584, guid: 300fd6f6590db4b439e3dabcdf33e65a, type: 3}
       propertyPath: m_AnchoredPosition.y
