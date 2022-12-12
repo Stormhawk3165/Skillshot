@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2697484691646474627}
   m_Layer: 0
   m_Name: Obstacle_1
-  m_TagString: Untagged
+  m_TagString: Bouncy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -106,6 +106,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5218be05094449d4e9a669fdc5b9765d, type: 3}
       propertyPath: m_Name
       value: Skillshot_PinB_L_Asset_Low_hsr
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5218be05094449d4e9a669fdc5b9765d, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5218be05094449d4e9a669fdc5b9765d, type: 3}
       propertyPath: m_StaticEditorFlags

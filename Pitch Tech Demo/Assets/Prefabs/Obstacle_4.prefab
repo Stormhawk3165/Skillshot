@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4844944329559434985}
   m_Layer: 0
   m_Name: Obstacle_4
-  m_TagString: Untagged
+  m_TagString: Bouncy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -105,6 +105,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: b881f6800c4c4814eab14999d040d667, type: 2}
     - target: {fileID: -6471457700774898355, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
+      objectReference: {fileID: 0}
+    - target: {fileID: -6471457700774898355, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -133,8 +137,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438646840400526946, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
       objectReference: {fileID: 0}
     - target: {fileID: 8438646840400526946, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -234,6 +246,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: a4a8c7c2d579e1641be129e45bf4cf62, type: 2}
     - target: {fileID: -6471457700774898355, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
+      objectReference: {fileID: 0}
+    - target: {fileID: -6471457700774898355, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -250,8 +266,16 @@ PrefabInstance:
       value: Skillshot_PinB_SqAsset_Low_hsr (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438646840400526946, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
+      propertyPath: m_TagString
+      value: Bouncy
       objectReference: {fileID: 0}
     - target: {fileID: 8438646840400526946, guid: f73b7974cc334664d9f4fd5fa17a75c0, type: 3}
       propertyPath: m_StaticEditorFlags
